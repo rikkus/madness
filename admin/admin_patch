@@ -1,0 +1,20 @@
+? admin_patch
+Index: cvs.sh
+===================================================================
+RCS file: /home/kde/kde-common/admin/cvs.sh,v
+retrieving revision 1.16
+diff -u -3 -p -r1.16 cvs.sh
+--- cvs.sh	2002/05/07 14:24:50	1.16
++++ cvs.sh	2002/05/12 13:11:43
+@@ -27,6 +27,11 @@ else
+    AUTOCONF="autoconf"
+ fi
+ 
++echo "Recommended autoconf version: 2.52"
++echo "Found "`$AUTOCONF --version | head -1`
++echo "Recommended automake version: 1.5"
++echo "Found "`automake --version | head -1`
++
+ ### Determine autoconf version and complain about older versions.
+ AUTOCONF_VERSION=`$AUTOCONF --version`
+ if test "x$AUTOCONF_VERSION" = "xAutoconf version 2.13"; then 

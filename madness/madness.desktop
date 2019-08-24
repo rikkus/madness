@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Madness
+Exec=madness %i %m -caption "%c"
+Icon=madness
+Type=Application
+DocPath=madness/madness.html
+Comment=Mad as a lorry
+Terminal=0

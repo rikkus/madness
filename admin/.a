@@ -1,0 +1,11 @@
+Tell the user what the recommended versions of autoconf and automake are,
+and show what they have installed. If the version(s) are wrong, please
+tell me so I can correct them. I specified autoconf 2.52 and automake 1.5
+CVS: ----------------------------------------------------------------------
+CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
+CVS: 
+CVS: Committing in .
+CVS: 
+CVS: Modified Files:
+CVS: 	cvs.sh 
+CVS: ----------------------------------------------------------------------
